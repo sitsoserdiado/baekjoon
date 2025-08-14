@@ -36,9 +36,8 @@ public class Main {
             bw.write(quarters + " " + dimes + " " + nickels + " " + pennies + "\n");
         }
 
-        br.close();
-        bw.close();
-
+        bw.flush();
+        
     }
 
 }
